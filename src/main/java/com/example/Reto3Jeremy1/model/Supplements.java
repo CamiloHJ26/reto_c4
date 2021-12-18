@@ -1,13 +1,7 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package com.example.Reto3Jeremy1.model;
 
-/**
- *
- * @author Jeremy
- */
+
 
 import org.springframework.data.annotation.Id;
 
@@ -21,7 +15,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Document(collection = "supplements")
+@Document(collection = "cosmetics")
 public class Supplements {
     @Id
     private String reference;
