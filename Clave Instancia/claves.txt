@@ -1,0 +1,12 @@
+129.151.114.123
+
+Llave
+
+1. chmod 400 ssh-key-2021-11-09.key
+2. ssh -i ssh-key-2021-11-09.key opc@129.151.114.123
+
+
+llave 2
+
+1. chmod 400 ssh-key-2021-12-17.key
+2. ssh -i ssh-key-2021-12-17.key opc@129.151.124.50
